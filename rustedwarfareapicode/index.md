@@ -7,7 +7,7 @@ hero:
   text: 轻松编码，轻松学习
   tagline: 学习Mod,制作Mod,创新Mod
   image:
-    src: https://rwapi-code.netlify.app/images/logo.png
+    src: https://jdsalingzx.top/wp-content/uploads/2025/03/logo.png
     alt: RW-API-Code
 
   actions:
@@ -30,7 +30,8 @@ features:
     linkText: 让我们立刻开始吧！
   - title: 地图代码表
     details: 学习铁锈的地图TMX代码表
-    linkText: 让我们立刻开始吧！[开发中]
+    link: /src/Map/all
+    linkText: （当前仅Trigger部分）
   - title: 调试代码表
     details: 学习铁锈的高级调试代码表(仅Android)
     linkText: 让我们立刻开始吧！[开发中]
@@ -39,4 +40,5 @@ features:
     link: /src/RW-Engine/quick-start
     linkText: 让我们立刻开始吧！[开发中]
 ---
+
 

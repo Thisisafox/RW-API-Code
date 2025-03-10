@@ -10,10 +10,11 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '单位API', link: '/src/Unit/core' },
-      { text: '地图API', link: '/src/Map/teada' },
+      { text: '地图API', link: '/src/Map/all' },
       { text: '调试API', link: '/src/Debug/test' },
       { text: '编写指南', link: '/api-dev' },
-      { text: 'RW-Engine指南', link: '/src/RW-Engine/quick-start' }
+      { text: 'RW-Engine指南', link: '/src/RW-Engine/quick-start' },
+      { text: '感谢名单', link: '/cos' }
     ],
 
     docFooter: {
@@ -30,11 +31,16 @@ export default defineConfig({
           { text: '[API-单位组-Unit]', link: '' },
           { text: '核心-CORE', link: '/src/Unit/core' },
           { text: '可建造-CANBUILD', link: '/src/Unit/canbuild' },
+          { text: '附属-ATTACHMENT', link: '/src/Unit/attachment' },
           { text: '图像-GRAPHICS', link: '/src/Unit/graphics' },
+          { text: '炮塔-TURRET', link: '/src/Unit/turret' },
           { text: '攻击-ATTACK', link: '/src/Unit/attack' },
           { text: '运动-MOVEMENT', link: '/src/Unit/movement' },
           { text: '逻辑-LOGIC', link: '/src/Unit/loginboolean' },
+          { text: '刷兵/刷单位-SPAWN', link: '/src/Unit/spawnunit_spawnprojectile' },
           { text: '-------------------------', link: '' },
+          { text: '格式', link: '/src/Map/all' },
+          { text: 'Trigger', link: '/src/Map/trigger' }
         ]
       }
     ],
@@ -44,8 +50,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "Rosy-Code Ling Web Stuido",
-      copyright: "Copyright © 2023-RW-API-Code",
+      message: "Spldream Studio",
+      copyright: "Copyright © 2023-2025 RW-API-Code",
     },
 
     search: {
