@@ -84,6 +84,7 @@ onlyWhenSelectedByAllyNotOwnPlayer:true
 onlyWhenSelectedByAnyPlayer:true
 ```
 <hr>
+
 ### includeParentsSelection
 #### includeParentsSelection-代码简介
 代码:includeParentsSelection 中文释义:包括被父单位选中 类型:布尔值bool 隶属于:贴花代码组
@@ -634,7 +635,7 @@ color:#FFFF00
 #### alpha-代码简介
 代码:alpha 中文释义:透明度 类型:动态浮点值LogicFloat 隶属于:贴花代码组
 #### alpha-要点指示
-以颜色堆叠透明度 影响图像和线条
+以颜色堆叠透明度 影响图像和线条，填入动态值时会令颜色无效
 #### alpha-演示例子
 ```ini
 [decal_name]
