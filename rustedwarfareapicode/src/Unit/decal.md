@@ -7,7 +7,7 @@ outline: deep
 
 ### layer
 #### layer-代码简介
-代码:layer 中文释义:绘制图层 类型:图层类型layer type 隶属于:贴花代码组
+代码:layer 中文释义:绘制图层 类型:图层类型layerType 隶属于:贴花代码组
 #### layer-要点指示
 设置贴花显示类型
 #### layer-演示例子
@@ -16,7 +16,7 @@ outline: deep
 layer:beforeUI
 ```
 可填入图层类型
-| 类型 | shadow | afterBody | afterBody | onTop | beforeUI | inactive |
+| 类型 | shadow | afterBody | beforeBody | onTop | beforeUI | inactive |
 |----|--------|-----------|-----------|-------|----------|----------|
 | 层级 | 在阴影层   | 在主体层下     | 在主体层上     | 在最顶层  | 在显示层上    | 在行动中     |
 <hr>
