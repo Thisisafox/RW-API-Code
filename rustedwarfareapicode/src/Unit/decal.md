@@ -15,14 +15,10 @@ outline: deep
 [decal_name]
 layer:beforeUI
 ```
-::: tip
-可填入类型
-
+可填入图层类型
 | 类型 | shadow | afterBody | afterBody | onTop | beforeUI | inactive |
 |----|--------|-----------|-----------|-------|----------|----------|
 | 层级 | 在阴影层   | 在主体层下     | 在主体层上     | 在最顶层  | 在显示层上    | 在行动中     |
-
-:::
 <hr>
 
 ### order
@@ -119,12 +115,10 @@ onlyPlayersWithUnitControl:true
 [decal_name]
 onlyTeam:any
 ```
-::: tip
-
+可填入队伍关系
 | own | notOwn | neutral | allyNotOwn | ally | enemy | any |
 |-----|--------|---------|------------|------|-------|-----|
 | 己方  | 非己方    | 中立方     | 除自己外盟友     | 盟友   | 敌方    | 任意  |
-:::
 <hr>
 
 ### onlyWithZoomLevelOrMore
